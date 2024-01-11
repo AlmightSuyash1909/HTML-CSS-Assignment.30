@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms Assignment - 2</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6703c2f694.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container flex">
+            <div class="logo">
+                <a href="#" class="flex">
+                    <img src="Assets/media/logo.png" alt="logo" width="36">
+                    <span>Journey</span>
+                </a>
+            </div>
+            <nav class="nav">
+                <ul class="flex">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Top Destinations</a>
+                    </li>
+                    <li>
+                        <a href="#">Recommended Places</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+       <div class="container" >
+        <section class="hero-section">
+            <h1>LET'S BEGIN</h1>
+            <div class="flex justify-center column">
+                <div class="dot"></div>
+                <div class="dot dot-2 "></div>
+                <div class="dot"></div>
+            </div>
+            <p>
+                We assist you to choose the best.
+            </p>
+            <div>
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <form action="#">
+                <fieldset class="flex-46">
+                    <label for="destination">Choose your destination</label>
+                    <input class="form-control" type="text" id="destination" placeholder="Type yout destination">
+                    <div class="date">
+                       <div>
+                        <label for="check-in">Check in Date</label>
+                        <input class="form-control" type="date" placeholder="Check In" id="check-in">
+                       </div>
+                    <div>
+                        <label for="check-out">Check Out Date</label>
+                        <input  class="form-control" type="date" placeholder="Check Out" id="check-out">
+                    </div>
+                    </div>
+                </fieldset>
+                <fieldset class="flex-46">
+                    <div class="flex">
+                     <div>
+                        <label for="room">How many rooms ?</label>
+                     <select class="form-control" name="" id="room">
+                         <option value="">1 Room</option>
+                         <option value="">2 Room</option>
+                         <option value="">3 Room</option>
+                         <option value="">5 Room</option>
+                         <option value="">6 Room</option>
+                     </select>
+                     </div>
+                    <div>
+                        <label for="adult">Adult</label>
+                        <select class="form-control" name="" id="adult">
+                            <option value="">1</option>
+                            <option value="">2 </option>
+                            <option value="">3 </option>
+                            <option value="">4 </option>
+                            <option value="">5 </option>
+                        </select>
+                    </div>
+                  <div>
+                    <label for="children">Children</label>
+                    <select class="form-control" name="" id="children">
+                        <option value="">0</option>
+                        <option value="">1 </option>
+                        <option value="">2 </option>
+                        <option value="">3 </option>
+                        <option value="">4 </option>
+                    </select>
+                  </div>
+                    </div>
+                    <input class="btn" type="submit" value="Check Availabity">
+                 </fieldset>
+            </form>
+        </section>
+        <section class="about-section ">
+            <div class="about-container">
+                <h2>YOUR <strong>JOURNEY</strong> IS OUR PRIORITY</h2>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, id eos dolor natus voluptas, ducimus quod unde quae labore accusantium iste qui laborum error. Expedita ex ullam nisi! Accusamus, deleniti.</P>
+                <a class="btn" href="#">Continue Explore</a>
+            </div>
+        </section>
+        <section >
+            <article class="flex">
+                <div class="flex-50 article-col-left font-0">
+                    <img src="Assets/media/europe.webp" alt="" width="100%" height="400px">
+                    <div class="flex justify-end nav-btn-container">
+                        <div class="nav-btn center">
+                            <div class="nav-btn-icon">
+                                <i class="fa-solid fa-angle-left"></i>
+                            </div>
+                        </div>
+                        <div class="nav-btn center">
+                            <div class="nav-btn-icon">
+                                <i class="fa-solid fa-angle-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-50 article-text left">
+                    <h3>Europe's most visited places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis nobis temporibus nulla aperiam iste. Ab ipsa suscipit obcaecati quos praesentium reiciendis ullam.</p>
+                    <a class="btn" href="#">Continue Reading</a>
+                </div>
+            </article>
+            <article class="flex">
+                <div class="flex-50 article-text right article-2-bg">
+                    <h3>Asia's most popular palces</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis nobis temporibus nulla aperiam iste. Ab ipsa suscipit obcaecati quos praesentium reiciendis ullam.</p>
+                    <a class="btn" href="#">Continue Reading</a>
+                </div>
+                <div class="flex-50 article-col-left font-0">
+                    <img src="Assets/media/asia.jpg" alt="" width="100%" height="400px">
+                    <div class="flex justify-end nav-btn-container-left">
+                        <div class="nav-btn center">
+                            <div class="nav-btn-icon">
+                                <i class="fa-solid fa-angle-left"></i>
+                            </div>
+                        </div>
+                        <div class="nav-btn center">
+                            <div class="nav-btn-icon">
+                                <i class="fa-solid fa-angle-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="flex">
+                <div class="flex-50 article-col-left font-0">
+                    <img src="Assets/media/america.webp" alt="" width="100%" height="400px">
+                    <div class="flex justify-end nav-btn-container">
+                        <div class="nav-btn center">
+                            <div class="nav-btn-icon">
+                                <i class="fa-solid fa-angle-left"></i>
+                            </div>
+                        </div>
+                        <div class="nav-btn center">
+                            <div class="nav-btn-icon">
+                                <i class="fa-solid fa-angle-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-50 article-text left ">
+                    <h3>America's most visited places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis nobis temporibus nulla aperiam iste. Ab ipsa suscipit obcaecati quos praesentium reiciendis ullam.</p>
+                    <a class="btn" href="#">Continue Reading</a>
+                </div>
+            </article>
+        </section>
+       </div>
+    </main>
+</body>
+</html>
